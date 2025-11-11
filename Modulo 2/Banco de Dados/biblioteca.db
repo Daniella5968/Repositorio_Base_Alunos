@@ -1,0 +1,31 @@
+CREATE TABLE jogador (
+    ID_jogador                          VANCHAR(255) PRIMARY KEY,
+    nome_VANCHAR(255),
+    Nivel INT
+    Pontos_Maximo INT,
+    Moedas_do_jogo INT
+
+CREATE TABLE pista (
+    ID_pista INT PRIMARY KEY,
+    Nome VANCHAR(255),
+    Localizaçao VANCHAR(255),
+    Tamanho_km DECIMAL (10, 1)
+
+CREATE TABLE Carro (
+    ID_Carro INT PRIMARY KEY,
+    nome VARCHAR(255),
+    Velocidade_Maxima_Kmh INT,
+    Tempo_0_100_seg DECIMAL(10,2),
+
+CREATE TABLE upgrade (
+    ID_Upgrade DECIMAL(10, 1) PRIMARY KEY,
+    Nome VARCHAR(255),
+    Preço INT,
+    Efeito VANCHAR(255)
+
+CREATE TABLE Corrida ()
+
+  
+)
+) )
+)
